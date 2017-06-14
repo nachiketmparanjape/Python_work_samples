@@ -53,3 +53,4 @@ for i in range(len(df1)):
 #Print total number of rows processed to the console    
 print("Total number of rows processed - " +str(i))
 
+df1.to_excel('Tab_Villages_Mapping.xlsx',sheet_name='CompleteData')
